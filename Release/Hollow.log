@@ -1,0 +1,30 @@
+﻿빌드 시작: 2011-04-03 오후 2:07:18
+     1>2 노드의 "D:\프로그램\자작\Hollow\Hollow.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Release\Hollow.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Hollow.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HollowDlg.cpp
+         HollowDlg.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\Hollow.res" Hollow.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\Hollow.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\Hollow.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\프로그램\자작\Hollow\Release\Hollow.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\Hollow.lib" /MACHINE:X86 Release\Hollow.res
+         Release\Converter.obj
+         Release\Finder.obj
+         Release\Hollow.obj
+         Release\HollowDlg.obj
+         Release\Loader.obj
+         Release\Util.obj
+         Release\stdafx.obj
+         Hollow.vcxproj -> D:\프로그램\자작\Hollow\Release\Hollow.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\Hollow.exe;#1" /manifest res\Hollow.manifest Release\Hollow.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         "Release\Hollow.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\Hollow.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\프로그램\자작\Hollow\Hollow.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.47
